@@ -1,6 +1,3 @@
-import "tailwindcss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export function Header({ cartCount, toggleCart }) {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
